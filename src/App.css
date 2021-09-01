@@ -86,8 +86,25 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.location-box {
-  margin-top: 60px;
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.location_div {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px auto;
+  width: 350px;
+}
+
+.location_div .location-box {
+  margin-bottom: 30px;
+  margin-top: -30px;
 }
 
 .location-box .location {
